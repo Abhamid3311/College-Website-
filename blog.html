@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,
+   300;1,100;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="clg.css">
+    <script src="https://kit.fontawesome.com/0848765cdb.js" crossorigin="anonymous"></script>
+    <title>Blog Page</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="clg.html"><img src="img/logo.png"></a>
+            <div class="nav-link" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="clg.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="blog-h1">Our Certificate & Online Programs</h1>
+    </section>
+
+
+    <!-- blog Page content -->
+
+
+    <section class="blog-content">
+        <div class="blog-row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg">
+                <h2>Our Certificate for Online Programs For 2021</h2>
+                <p>Khulna University was established in 1991.
+                    There are 8 schools and 29 disciplines under these schools.
+                    The most promising characteristic of this university is that it is free from student politics.
+                    No session jam in academic activities. A big number of professors, associate professors and
+                    assisstant professors are working as faculty member of various disciplines. Many national and
+                    international research projects are on going. Student accommodation facility is very well. There
+                    are three halls for male students and two hall for female students. Library and laboratory facility
+                    is also of high quality. Students and stuffs are provided with transport facility. Overall student
+                    quality of this university is very satisfying. Graduates of this university are working
+                    all over the world with a lot of fame.</p>
+                <br><br>
+                <p>Khulna University was established in 1991.
+                    There are 8 schools and 29 disciplines under these schools.
+                    The most promising characteristic of this university is that it is free from student politics.
+                    No session jam in academic activities. A big number of professors, associate professors and
+                    assisstant professors are working as faculty member of various disciplines. Many national and
+                    international research projects are on going. Student accommodation facility is very well. There
+                    are three halls for male students and two hall for female students. Library and laboratory facility
+                    is also of high quality. Students and stuffs are provided with transport facility. Overall student
+                    quality of this university is very satisfying. Graduates of this university are working
+                    all over the world with a lot of fame.</p>
+                <br><br>
+                <p>Khulna University was established in 1991.
+                    There are 8 schools and 29 disciplines under these schools.
+                    The most promising characteristic of this university is that it is free from student politics.
+                    No session jam in academic activities. A big number of professors, associate professors and
+                    assisstant professors are working as faculty member of various disciplines. Many national and
+                    international research projects are on going. Student accommodation facility is very well. There
+                    are three halls for male students and two hall for female students. Library and laboratory facility
+                    is also of high quality. Students and stuffs are provided with transport facility. Overall student
+                    quality of this university is very satisfying. Graduates of this university are working
+                    all over the world with a lot of fame.</p>
+
+
+                <div class="comment-box">
+                    <h3>
+                        Leave a comment
+                    </h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn ab-btn ">Post Comment</button>
+
+                    </form>
+                </div>
+            </div>
+
+
+
+
+            <div class="blog-right">
+                <h3> Post Catagories</h3>
+                <div>
+                    <span>Post Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>38</span>
+                </div>
+                <div>
+                    <span>Data Algorithm</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Robotics</span>
+                    <span>20</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p> Learn How To Make A Complete Website Using HTML and CSS,
+            Complete HTML <br>and CSS Multiple Pages Website Design Tutorial Step by Step</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+        <p>All Right Reserved by <i class="fa fa-copyright"></i> Ab Hamid </p>
+    </section>
+
+
+
+    <!-- JavavScript for toggle Menu -->
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
